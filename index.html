@@ -1,0 +1,10 @@
+<html ng-app='theBall'>
+  <head><title>The Ball</title></head>
+  <body ng-controller="MainCtrl as ctrl">
+    <input type="text" ng-model="ctrl.question">
+    <button ng-click="ctrl.prediction()">{{ctrl.answer}}</button>
+    <div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>  
